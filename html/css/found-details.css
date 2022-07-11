@@ -1,0 +1,48 @@
+main .details{
+
+ position: relative;
+ top:5px;
+ color: #000;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-wrap: wrap;
+}
+.details > div{
+    background-color:#e6e6e6;
+    width: 300px;
+  margin: auto;
+  padding: 10px;
+  display: flex;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  
+  align-items: center;
+  justify-content:flex-start;
+
+}
+.checkmark-img{
+    width: 50px;
+    height: 50px;
+}
+.detailed-txt{
+    margin: 2px;
+    position: relative;
+    margin-left: 20px;
+}
+
+@media (max-width:750px) {
+    .details > div{
+        background-color:#e6e6e6;
+        width: 95%;
+      margin: auto;
+      padding: 10px;
+      display: flex;
+      border-radius: 5px;
+      margin-bottom: 15px;
+      
+      align-items: center;
+      justify-content:flex-start;
+    
+    }
+}
