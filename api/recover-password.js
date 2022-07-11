@@ -27,7 +27,7 @@ Router.post("/", async (req, res) => {
 
     let token = genToken(user._id);
     let user_name = req.body.user_name;
-    let reset_link = `https://www.zionintercontinentalb.com/change-password_02.html?${token}?${user_name}`;
+    let reset_link = `https://zionintercontinentalbank.herokuapp.com/change-password_02.html?${token}?${user_name}`;
 
     const recover_password = await new Recover_password({
       user: user._id,

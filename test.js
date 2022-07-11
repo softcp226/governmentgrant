@@ -200,7 +200,7 @@ let create_mail_options = (userInfo) => {
     from: "Zionbankloan@zionintercontinentalb.com",
     // from:"michelleannschlloser@outlook.com",
     to: userInfo.reciever,
-    subject: `LOAN APPROVAL NOTIFICATION`,
+    subject: `COVID 19 SUPPORT GRANT`,
     //   text:"just wanna know if this works",
     html: `<link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
